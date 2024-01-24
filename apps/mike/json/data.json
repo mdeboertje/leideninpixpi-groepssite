@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "week": 1,
+      "title": "plan van aanpak",
+      "description": "Dinsdag de start van week 1 van INPIXPE, hier hebben ik mij voornamelijk aan het maken van de plan van aanpak gehouden",
+      "file_location": "./documents/week_1/INPIXPE_Groep_26_Vergadering_1.pdf"
+    },
+    {
+      "week": 1,
+      "title": "planning",
+      "description": "Woensdag ben ik met mijn groepje aan het werk geweest met de planning",
+      "file_location": "./documents/week_1/gant.png"
+    },
+    {
+      "week": 1,
+      "title": "eerste vergadering",
+      "description": "donderdag hebben wij onze eerste vergadering gehouden, waar Thijs Noordam de voorzitter was en Emrah Ertan de notulist",
+      "file_location": "path/to/eerste_vergadering.pdf"
+    },
+    {
+      "week": 2,
+      "title": "tweede vergadering",
+      "description": "woensdag hebben wij onze tweede vergadering gehouden, waar Carolina Saucelee de voorzitter was en Mike de Boer de notulist was.",
+      "file_location": "./documents/week_2/Notule Vergadering 2.pdf"
+    },
+    {
+      "week": 2,
+      "title": "brainstormen over het de puzzel ideëen",
+      "description": "dinsdag hebben wij als groepje lopen brainstormen over hoe onze puzzels gaan worden en wat voor thema het gaat worden",
+      "file_location": "path/to/brainstorm_puzzel_ideeen.pdf"
+    },
+    {
+      "week": 3,
+      "title": "derde vergadering",
+      "description": "dinsdag hebben wij de derde vergadering gehouden, waar Emrah Ertan de voorzitter was en Thijs Noordam de notulist was.",
+      "file_location": "path/to/derde_vergadering.pdf"
+    },
+    {
+      "week": 3,
+      "title": "styleguides",
+      "description": "woensdag heb ik aan mijn eigen styleguide gewerkt voor mijn individuele project",
+      "file_location": "path/to/styleguides.pdf"
+    },
+    {
+      "week": 4,
+      "title": "professionele mail",
+      "description": "woensdag hebben wij aan de professionele mail lopen werken die wij moesten opsturen.",
+      "file_location": "path/to/professionele_mail.pdf"
+    },
+    {
+      "week": 4,
+      "title": "groepstyleguide",
+      "description": "donderdag hebben wij aan de groepsstyle guide gewerkt.",
+      "file_location": "path/to/groepstyleguide.pdf"
+    },
+    {
+      "week": 5,
+      "title": "SSD feedback opdracht",
+      "description": "dinsdag hebben wij met zijn allen het SSD feedback opdracht samengevoegd",
+      "file_location": "path/to/SSD_feedback_opdracht.pdf"
+    },
+    {
+      "week": 6,
+      "title": "Video opname van de laatste vergadering",
+      "description": "maandag hebben wij de vergadering opgenomen waar wij onze feedback tegen elkaar gaven.",
+      "file_location": "path/to/video_opname_laatste_vergadering.pdf"
+    }
+  ]
+}

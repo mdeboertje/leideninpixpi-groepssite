@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>INPIXPE</title>
+  </head>
+  <body>
+    <header>
+      <h1>INPIXPE</h1>
+    </header>
+
+    <nav class="main-nav">
+      <a href="#">Over</a>
+    </nav>
+
+    <div class="container">
+      <aside class="sidebar">
+        <button id="openEventModalBtn">Add New Event</button>
+        <p id="noEventsMessage" class="no-events-message">
+          Geen gebeurtenissen op het moment
+        </p>
+        <ul id="eventTimeline" />
+      </aside>
+
+      <main id="mainContent">
+        <dialog id="eventModal" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeEventModalBtn">&times;</span>
+            <h2>Event</h2>
+            <form id="eventForm">
+              <label for="eventWeek">Week:</label>
+              <input
+                type="number"
+                id="eventWeek"
+                placeholder="week 1"
+                required
+              />
+              <input id="eventTitle" placeholder="Title" required />
+              <label for="eventDescription" aria-required="true"
+                >Description:</label
+              >
+              <textarea
+                id="eventDescription"
+                placeholder="Description"
+                required
+              ></textarea>
+              <button type="button" id="saveEventBtn">Save</button>
+            </form>
+          </div>
+        </dialog>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "url": "./apps/mike/index.html",
+    "omschrijving": "Beschrijving voor Mike's pagina",
+    "studentnaam": "Mike"
+  },
+  {
+    "url": "./pages/carolina.html",
+    "omschrijving": "Beschrijving voor Carolina's pagina",
+    "studentnaam": "Carolina"
+  },
+  {
+    "url": "./pages/mike.html",
+    "omschrijving": "Beschrijving voor Emrah's pagina",
+    "studentnaam": "Emrah"
+  },
+  {
+    "url": "./pages/carolina.html",
+    "omschrijving": "Beschrijving voor Thijs's pagina",
+    "studentnaam": "Thijs"
+  }
+]

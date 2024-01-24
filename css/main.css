@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #014d44;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#codeInput {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.custom-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.custom-card .card-content {
+  padding: 15px;
+}
+
+.custom-card h4 {
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  margin-bottom: 15px;
+}
+
+.custom-card a {
+  margin-bottom: 15px;
+  display: block;
+  padding: 15px;
+  background-color: #017365;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  float: left;
+}
+
+.custom-card + .custom-card {
+  margin-top: 20px;
+}
+
+.custom-card.start-new-row {
+  margin-top: 0;
+}
+
+#codeInput {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#codeInput label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#codeInput button {
+  background-color: #017365;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#codeInput button:hover {
+  background-color: #014d44;
+}
+
+#puzzleCode {
+  width: 60%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#icon {
+  width: 1em;
+}
+
+#intro {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#intro article h1 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+#intro article {
+  font-size: 18px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+  max-width: 600px;
+}
+#intro article a {
+  color: #014d44;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#intro article a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #014d44;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

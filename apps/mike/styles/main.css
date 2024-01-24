@@ -1,0 +1,217 @@
+/* Reset and Global Styles */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #014d44;
+  color: #fcfcfc;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+.main-nav {
+  background-color: #017365;
+  color: #fcfcfc;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #fcfcfc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+  background-color: #00423a;
+}
+
+/* Main Container and Sidebar Styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  background-color: #e0e0e0;
+  padding: 20px;
+  width: 25%;
+  min-height: 100vh;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Event Form Styles */
+#eventForm label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#eventForm input,
+#eventForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+#eventForm input:focus,
+#eventForm textarea:focus {
+  outline: none;
+  border-color: #568c55;
+}
+
+#saveEventBtn {
+  background-color: #568c55;
+  color: #fcfcfc;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#saveEventBtn:hover {
+  background-color: #385e3c;
+}
+
+/* Main Content Styles */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Timeline Styles */
+#eventTimeline {
+  list-style: none;
+  padding: 0;
+  border-left: 2px solid #568c55;
+}
+
+.event {
+  margin-bottom: 20px;
+  list-style: none; /* Remove default list style */
+  cursor: pointer;
+  padding-left: 15px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.event::before {
+  content: "\25BA";
+  color: #568c55;
+  background-color: #e0e0e0;
+  font-size: 1em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.details.visible {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+.event:hover {
+  background-color: #e0e0e0;
+}
+
+.no-events-message {
+  text-align: center;
+  color: #555;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.no-events-message.visible {
+  display: block;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 400px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  background-color: #014d44;
+  color: #fcfcfc;
+  padding: 15px;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  /* Add your responsive styles here */
+  body {
+    font-size: 14px; /* For example, adjust the font size for smaller screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Adjust the width of the sidebar for smaller screens */
+  }
+
+  .event {
+    padding-left: 10px; /* Adjust the padding for event items on smaller screens */
+  }
+
+  .modal-content {
+    width: 90%; /* Adjust the size of the modal content for smaller screens */
+  }
+}
